@@ -1,0 +1,47 @@
+body {
+    background-color: gainsboro;
+}
+@font-face {
+    font-family:"heebo";
+    src: url(fonts/Heebo-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: notosans;
+    src: url(fonts/Noto_Sans);
+}
+p {
+    font-family: heebo, Arial, Helvetica, sans-serif;
+    margin: 10px
+}
+h3 {
+    font-family: notosans, sans-serif, Arial, Helvetica;
+    position: relative;
+}
+#img1, #img2 {
+    position: relative;
+    left: 200px;
+}
+#img3 {
+    position: relative;
+    left: 50px;
+}
+
+#div-header, #div-footer {
+    margin: auto;
+    width: 700px;
+    border: none;
+    border-radius: 20px;
+    position: center;
+}
+#div-main {
+    margin: auto;
+    width: 500px;
+    border: none;
+}
+#div-dni
+{
+    margin: auto;
+    width: 800px;
+    border: none;
+    position: center;
+}
